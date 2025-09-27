@@ -1,0 +1,29 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/.next/
+/build/
+/dist/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directory
+/coverage/
+
+# IDE/editor configurations
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# TypeScript
+*.tsbuildinfo
