@@ -53,7 +53,7 @@ export default function Footer() {
               </a>
             </li>
             <li className="flex items-center justify-center md:justify-start">
-              <IoLocationSharp className="mr-2 text-primary-lightBlue text-4xl" />
+              <IoLocationSharp className="text-primary-lightBlue text-4xl -ml-1 mr-1" />
               P.O. Box 465 <br /> Leonardtown, MD 20650
             </li>
             <li className="flex items-center justify-center md:justify-start">
