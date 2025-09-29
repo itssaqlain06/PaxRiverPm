@@ -38,9 +38,9 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header className="bg-white shadow-sm">
-      <nav className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-[90px] sm:h-[100px] lg:h-[120px]">
+    <header className="bg-white shadow-sm border-b-2 border-[#BFD9E9]">
+      <nav className="max-w-[1400px] mx-auto px-7 sm:px-10 lg:px-9">
+        <div className="flex justify-between items-center h-[90px] sm:h-[100px] lg:h-[123px]">
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <Image
@@ -55,35 +55,35 @@ const Header: React.FC = () => {
           </div>
 
           <div className="hidden lg:block">
-            <div className="ml-10 flex items-baseline xl:gap-x-8 lg:gap-x-6 gap-x-4">
+            <div className="ml-10 lg:ml-6 xl:ml-10 flex items-baseline xl:gap-x-8 lg:gap-x-6 gap-x-4">
               <Link
                 href="/residential-management"
-                className="text-black hover:text-primary-lightBlue py-2 xl:text-lg text-base font-medium transition-colors duration-200"
+                className="text-black hover:text-primary-lightBlue py-2 xl:text-lg text-base font-medium transition-colors duration-300"
               >
                 Residential Management
               </Link>
               <Link
                 href="/association-management"
-                className="text-black hover:text-primary-lightBlue py-2 xl:text-lg text-base font-medium transition-colors duration-200"
+                className="text-black hover:text-primary-lightBlue py-2 xl:text-lg text-base font-medium transition-colors duration-300"
               >
                 Association Management
               </Link>
               <Link
                 href="/contact"
-                className="text-black hover:text-primary-lightBlue py-2 xl:text-lg text-base font-medium transition-colors duration-200"
+                className="text-black hover:text-primary-lightBlue py-2 xl:text-lg text-base font-medium transition-colors duration-300"
               >
                 Contact Us
               </Link>
               <Link
                 href="/login"
-                className="bg-primary text-white hover:bg-primary-darkBlue p-[10px] rounded xl:text-lg text-base font-medium transition-colors duration-200"
+                className="bg-primary text-white hover:bg-primary-darkBlue py-2 px-3 rounded-sm xl:text-lg text-base font-medium transition-colors duration-300"
               >
                 Login
               </Link>
             </div>
           </div>
 
-          <div className="lg:hidden">
+          <div className="lg:hidden pb-[10px]">
             <button onClick={toggleMenu} className="relative">
               <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[40px] h-[40px] sm:w-[45px] sm:h-[45px] md:w-[50px] md:h-[50px] transform transition-all bg-slate-700 ring-0 ring-gray-300 hover:ring-8 ring-opacity-30 duration-200 shadow-md">
                 <div className="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden">
@@ -114,28 +114,28 @@ const Header: React.FC = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
             <Link
               href="/residential-management"
-              className="text-black hover:text-primary-lightBlue hover:bg-gray-100 block mx-3 px-3 py-2 text-base font-medium transition-colors duration-200"
+              className="text-black hover:text-primary-lightBlue hover:bg-gray-100 block mx-3 px-3 py-2 text-base font-medium transition-colors duration-300"
               onClick={() => setIsMenuOpen(false)}
             >
               Residential Management
             </Link>
             <Link
               href="/association-management"
-              className="text-black hover:text-primary-lightBlue hover:bg-gray-100 block mx-3 px-3 py-2 text-base font-medium transition-colors duration-200"
+              className="text-black hover:text-primary-lightBlue hover:bg-gray-100 block mx-3 px-3 py-2 text-base font-medium transition-colors duration-300"
               onClick={() => setIsMenuOpen(false)}
             >
               Association Management
             </Link>
             <Link
               href="/contact"
-              className="text-black hover:text-primary-lightBlue hover:bg-gray-100 block mx-3 px-3 py-2 text-base font-medium transition-colors duration-200"
+              className="text-black hover:text-primary-lightBlue hover:bg-gray-100 block mx-3 px-3 py-2 text-base font-medium transition-colors duration-300"
               onClick={() => setIsMenuOpen(false)}
             >
               Contact Us
             </Link>
             <Link
               href="/login"
-              className="bg-primary text-white hover:bg-primary-darkBlue block px-3 py-2 text-base font-medium rounded mx-3 mt-4 transition-colors duration-200 text-center"
+              className="bg-primary text-white hover:bg-primary-darkBlue block px-3 py-2 text-base font-medium rounded mx-3 mt-4 transition-colors duration-300 text-center"
               onClick={() => setIsMenuOpen(false)}
             >
               Login
