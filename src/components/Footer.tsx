@@ -67,20 +67,26 @@ export default function Footer() {
           <div className="inline-block">
             <h3 className={`${lusitanaTitle.className} mb-7 text-[23px]`}>Affiliations and Associations</h3>
             <div className="flex items-center justify-center lg:justify-start gap-6">
-              <Image
-                src="/images/NARPM_logo.gif"
-                alt="NARPM logo"
-                width={270}
-                height={80}
-                className="object-contain w-auto h-[82px]"
-              />
-              <Image
-                src="/images/SMCChamberLogo.png"
-                alt="SMCChamber logo"
-                width={270}
-                height={80}
-                className="object-contain w-auto h-[82px]"
-              />
+              <Link href="https://www.narpm.org" target="_blank"
+                rel="noopener noreferrer" >
+                <Image
+                  src="/images/NARPM_logo.gif"
+                  alt="NARPM logo"
+                  width={270}
+                  height={80}
+                  className="object-contain w-auto h-[82px]"
+                />
+              </Link>
+              <Link href="https://smcchamber.com" target="_blank"
+                rel="noopener noreferrer" >
+                <Image
+                  src="/images/SMCChamberLogo.png"
+                  alt="SMCChamber logo"
+                  width={270}
+                  height={80}
+                  className="object-contain w-auto h-[82px]"
+                />
+              </Link>
             </div>
           </div>
         </div>

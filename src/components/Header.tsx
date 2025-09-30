@@ -9,7 +9,6 @@ const Header: React.FC = () => {
   const menuRef = useRef<HTMLDivElement>(null);
 
   const toggleMenu = () => {
-    console.log("ASDF")
     setIsMenuOpen((prevState) => !prevState);
   };
 
@@ -69,7 +68,7 @@ const Header: React.FC = () => {
                 Association Management
               </Link>
               <Link
-                href="/contact"
+                href="/contact-us"
                 className="text-black hover:text-primary-lightBlue py-2 xl:text-lg text-base font-medium transition-colors duration-300"
               >
                 Contact Us
