@@ -27,7 +27,7 @@ export default function ResidentialManagement() {
         >
           Residential Management
         </h1>
-        <p className="w-[90%] mx-auto text-lg">
+        <p className="w-[90%] mx-auto text-[19.2px] ${sourceSans.className}">
           Discover the convenience and peace of mind that comes with Pax River
           PM's residential management services. Our dedicated team handles all
           aspects of residential property management, from tenant placement to
@@ -68,7 +68,7 @@ export default function ResidentialManagement() {
           >
             Tenant Placement Services
           </h2>
-          <p className={`text-lg leading-7`}>
+          <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
             At Pax River PM, our tenant placement services are designed to
             simplify the rental process for property owners while ensuring the
             highest level of tenant quality. Let us help you secure reliable,
@@ -95,7 +95,7 @@ export default function ResidentialManagement() {
               >
                 Swift and Efficient Marketing
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 We prioritize efficiency to minimize vacancy periods and find
                 suitable tenants quickly. Our proactive approach and
                 comprehensive marketing strategies ensure prompt occupancy. To
@@ -113,7 +113,7 @@ export default function ResidentialManagement() {
               >
                 Professional Photography and Virtual Tours
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 To enhance the appeal of your property, we employ professional
                 photography, 3D tours, and floorplan layouts. These immersive
                 tools provide potential renters with a detailed virtual
@@ -126,7 +126,7 @@ export default function ResidentialManagement() {
               >
                 Thorough Tenant Screening
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 Tenant quality is paramount to us. Our tenant screening process,
                 powered by TransUnion, covers credit history, criminal
                 background checks, and eviction history. We also conduct pet
@@ -140,7 +140,7 @@ export default function ResidentialManagement() {
               >
                 Streamlined Security Deposit Handling
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 Our online portal allows tenants to submit security deposits
                 conveniently through bank accounts or credit cards. We also
                 offer the convenience of eSignatures, eliminating the need for
@@ -153,7 +153,7 @@ export default function ResidentialManagement() {
               >
                 Comprehensive Lease Drafting
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 We take care of drafting the lease agreements, ensuring they are
                 legally sound and tailored to your property's unique
                 requirements. Our meticulous approach ensures clarity and
@@ -166,7 +166,7 @@ export default function ResidentialManagement() {
               >
                 Personalized Service
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 We understand that each property is unique, and so are the needs
                 of its owner. Our tenant placement services can be tailored to
                 meet your specific requirements, providing flexible solutions
@@ -180,7 +180,7 @@ export default function ResidentialManagement() {
               >
                 Competitive Pricing
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 Our tenant placement services are competitively priced, starting
                 at just 7% of the annual rent.{" "}
                 <Link
@@ -227,7 +227,7 @@ export default function ResidentialManagement() {
           >
             Rental Management Services
           </h2>
-          <p className={`text-lg leading-7`}>
+          <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
             When you have a rental property, you don't want to stress about
             dealing with any problems that might arise. Pax River Property
             Management will take care of everything, from rental payments to
@@ -253,7 +253,7 @@ export default function ResidentialManagement() {
               >
                 Tenant Relations and Communication
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 We act as a dedicated point of contact for your tenants,
                 providing prompt responses to their inquiries, requests, and
                 concerns. Our proactive communication fosters positive tenant
@@ -268,7 +268,7 @@ export default function ResidentialManagement() {
               >
                 Rent Collection and Financial Management
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 Our streamlined rent collection procedures offer tenants
                 multiple payment options for their convenience. We handle
                 security deposits, ensuring compliance with legal requirements,
@@ -283,7 +283,7 @@ export default function ResidentialManagement() {
               >
                 Property Maintenance and Repairs
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 Preserving your property's value is paramount. Our team oversees
                 all maintenance and repair tasks, from routine inspections to
                 emergency repairs. We address issues promptly, ensuring tenant
@@ -296,7 +296,7 @@ export default function ResidentialManagement() {
               >
                 Legal Compliance and Eviction Management
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 Navigating the complex legal landscape of rental management can
                 be challenging. We ensure that your property remains in
                 compliance with all applicable laws and regulations. In cases
@@ -310,7 +310,7 @@ export default function ResidentialManagement() {
               >
                 Transparent Reporting and Technology Integration
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 Our online portal provides you with real‑time access to
                 financial statements, lease agreements, and property maintenance
                 updates. This transparency empowers you to stay informed about
@@ -323,7 +323,7 @@ export default function ResidentialManagement() {
               >
                 Personalized Service
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 We understand that each property is unique, and so are the needs
                 of its owner. Our tenant placement services can be tailored to
                 meet your specific requirements, providing flexible solutions
@@ -337,7 +337,7 @@ export default function ResidentialManagement() {
               >
                 Competitive Pricing
               </h3>
-              <p className={`text-lg leading-7`}>
+              <p className={`text-[19.2px] ${sourceSans.className} leading-7`}>
                 Our rental management services are competitively priced,
                 starting at just 9% of the monthly rent.{" "}
                 <Link
@@ -377,13 +377,13 @@ export default function ResidentialManagement() {
           })}
         </div>
         <div className="flex lg:flex-row flex-col gap-6 mt-16 items-center">
-          <div className="col-span-2">
+          <div>
             <h2
               className={`${lusitanaTitle.className} text-center text-3xl mb-4`}
             >
               Our online portal allows easy access to everything you need
             </h2>
-            <p className={`text-lg leading-6`}>
+            <p className={`text-[19.2px] ${sourceSans.className} leading-6`}>
               Our user‑friendly online portal ensures effortless access to all
               the tools you need for efficient property management. Available on
               Android, iOS, or any web browser, our sleek portal provides an
@@ -391,14 +391,14 @@ export default function ResidentialManagement() {
               tenants.
             </p>
             <ul className="space-y-2 mt-7">
-              <li className={`text-lg leading-6 flex items-center gap-3`}>
+              <li className={`text-[19.2px] ${sourceSans.className} leading-6 flex items-center gap-3`}>
                 <div>
                   <FaCheck size={16} className="text-primary-lightBlue" />
                 </div>
                 Easily view your tenant's account details, keeping you informed
                 about payments and balances.
               </li>
-              <li className={`text-lg leading-6 flex items-center gap-3`}>
+              <li className={`text-[19.2px] ${sourceSans.className} leading-6 flex items-center gap-3`}>
                 <div>
                   <FaCheck size={16} className="text-primary-lightBlue" />
                 </div>
@@ -406,7 +406,7 @@ export default function ResidentialManagement() {
                 maintenance requests submitted by tenants. This feature even
                 allows for photo attachments to provide clear information.
               </li>
-              <li className={`text-lg leading-6 flex items-center gap-3`}>
+              <li className={`text-[19.2px] ${sourceSans.className} leading-6 flex items-center gap-3`}>
                 <div>
                   <FaCheck size={16} className="text-primary-lightBlue" />
                 </div>
@@ -414,7 +414,7 @@ export default function ResidentialManagement() {
                 deposit payments from any device. They can set up automatic
                 payments for consistent, on‑time transactions.
               </li>
-              <li className={`text-lg leading-6 flex items-center gap-3`}>
+              <li className={`text-[19.2px] ${sourceSans.className} leading-6 flex items-center gap-3`}>
                 <div>
                   <FaCheck size={16} className="text-primary-lightBlue" />
                 </div>
