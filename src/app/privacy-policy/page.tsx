@@ -1,12 +1,14 @@
+import { lusitanaTitle, sourceSans } from '@/app/fonts';
+
 export default function PrivacyPolicy() {
   return (
-    <div className="container mx-auto px-4 py-8 space-y-6">
-      <h1 className="text-center text-3xl font-serif font-semibold mb-4">
-        Privacy Policy
+    <div className="max-w-[1400px] mx-auto px-7 sm:px-10 lg:px-10 py-8">
+      <h1 className={`${lusitanaTitle.className} text-primary-blackTitle text-center text-[32px] font-serif font-medium mb-9`}>
+        PRIVACY POLICY
       </h1>
       <div>
-        <h2 className="text-xl font-semibold mb-1">How We Protect You</h2>
-        <p>
+        <h2 className={`${lusitanaTitle.className} text-primary-blackTitle text-center text-[27px] font-serif font-medium mb-8`}>How We Protect You</h2>
+        <p className={`${sourceSans.className} text-primary-blackTitle text-base font-serif mb-8`}>
           Pax River Property Management LLC ("Pax River PM") is committed to
           protecting the privacy of information and data that may be used to
           identify you, your personal information. The intention of this
@@ -20,8 +22,8 @@ export default function PrivacyPolicy() {
         </p>
       </div>
       <div>
-        <h2 className="text-xl font-semibold mb-1">Use of Information</h2>
-        <p>
+        <h2 className={`${lusitanaTitle.className} text-primary-blackTitle text-center text-[27px] font-serif font-medium mb-8`}>Use of Information</h2>
+        <p className={`${sourceSans.className} text-primary-blackTitle text-base font-serif mb-8`}>
           We only use your personally identifiable information to respond to
           your requests and to provide you with information about Pax River
           Property Management LLC, but may also use it to provide you with
@@ -33,7 +35,7 @@ export default function PrivacyPolicy() {
           services that may be of interest to them) and for our other
           related business activities.
         </p>
-        <p className="mt-3">
+        <p className={`${sourceSans.className} text-primary-blackTitle text-base font-serif mb-8`}>
           <strong>Text message communications.</strong> We use text messaging
           to communicate with you about your service. Normal messaging rates
           apply and the frequency of messages may vary. Mobile Carriers are
@@ -43,7 +45,7 @@ export default function PrivacyPolicy() {
           messaging originator opt‑in data and consent; this information
           will not be shared with any third parties.
         </p>
-        <p className="mt-3">
+        <p className={`${sourceSans.className} text-primary-blackTitle text-base font-serif mb-8`}>
           <strong>Opt‑out of text message communications.</strong> You may
           opt out of text messaging at any time by replying to any message
           with STOP or contacting us at info@paxriverpm.com. This will end
@@ -54,8 +56,8 @@ export default function PrivacyPolicy() {
         </p>
       </div>
       <div>
-        <h2 className="text-xl font-semibold mb-1">Sharing Information</h2>
-        <p>
+        <h2 className={`${lusitanaTitle.className} text-primary-blackTitle text-center text-[27px] font-serif font-medium mb-8`}>Sharing Information</h2>
+        <p className={`${sourceSans.className} text-primary-blackTitle text-base font-serif mb-8`}>
           The personal information you provide to us will be retained only
           for as long as necessary to fulfill the purposes for which the
           information was collected or as required by law. We do not share
@@ -72,8 +74,8 @@ export default function PrivacyPolicy() {
         </p>
       </div>
       <div>
-        <h2 className="text-xl font-semibold mb-1">Safeguarding Information</h2>
-        <p>
+        <h2 className={`${lusitanaTitle.className} text-primary-blackTitle text-center text-[27px] font-serif font-medium mb-8`}>Safeguarding Information</h2>
+        <p className={`${sourceSans.className} text-primary-blackTitle text-base font-serif mb-8`}>
           In addition, we have technological and operational security
           policies and procedures in place to protect your personally
           identifiable information from loss, misuse, alteration or
@@ -90,8 +92,8 @@ export default function PrivacyPolicy() {
         </p>
       </div>
       <div>
-        <h2 className="text-xl font-semibold mb-1">Linking to Other Sites</h2>
-        <p>
+        <h2 className={`${lusitanaTitle.className} text-primary-blackTitle text-center text-[27px] font-serif font-medium mb-8`}>Linking to Other Sites</h2>
+        <p className={`${sourceSans.className} text-primary-blackTitle text-base font-serif mb-8`}>
           This policy covers Pax River Property Management LLC corporate
           websites. Some of our subsidiaries have their own, possibly
           different, policies. We encourage you to review these privacy
@@ -99,10 +101,10 @@ export default function PrivacyPolicy() {
         </p>
       </div>
       <div>
-        <h2 className="text-xl font-semibold mb-1">
+        <h2 className={`${lusitanaTitle.className} text-primary-blackTitle text-center text-[27px] font-serif font-medium mb-8`}>
           Transfer of Information to the United States
         </h2>
-        <p>
+        <p className={`${sourceSans.className} text-primary-blackTitle text-base font-serif mb-8`}>
           Pax River Property Management LLC is headquartered in the United
           States. Information we collect from you will be processed in the
           United States. The United States has not sought nor received a
@@ -125,8 +127,8 @@ export default function PrivacyPolicy() {
         </p>
       </div>
       <div>
-        <h2 className="text-xl font-semibold mb-1">Acceptance of Use</h2>
-        <p>
+        <h2 className={`${lusitanaTitle.className} text-primary-blackTitle text-center text-[27px] font-serif font-medium mb-8`}>Acceptance of Use</h2>
+        <p className={`${sourceSans.className} text-primary-blackTitle text-base font-serif mb-8`}>
           By accessing this website, you indicate your acceptance of this
           Privacy Policy.
         </p>
