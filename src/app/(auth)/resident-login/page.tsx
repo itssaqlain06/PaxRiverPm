@@ -51,14 +51,16 @@ export default function ResidentLoginPage() {
       <div className="flex min-h-screen flex-col justify-center items-center px-4">
         <div className="w-full max-w-[500px] rounded-2xl bg-white shadow-xl ring-1 ring-black/5 p-6 sm:p-10">
           <div className="flex justify-center">
-            <Image
-              src="/images/logo.png"
-              alt="Pax River Property Management LLC"
-              width={420}
-              height={90}
-              priority
-              className="h-14 sm:h-16 md:h-20 w-auto"
-            />
+            <Link href="/">
+              <Image
+                src="/images/logo.png"
+                alt="Pax River Property Management LLC"
+                width={420}
+                height={90}
+                priority
+                className="h-14 sm:h-16 md:h-20 w-auto"
+              />
+            </Link>
           </div>
 
           <h1 className="mt-6 text-center text-lg font-bold text-[#767676]">
@@ -133,7 +135,7 @@ export default function ResidentLoginPage() {
 
             <p className="pt-14 text-center text-xs text-[#909090]">
               Property manager, rental owner, or vendor?{' '}
-              <Link href="#" className="font-semibold text-[#509CCF] hover:text-primary-darkBlue transition-colors duration-300 hover:underline">
+              <Link href="/customer-login" className="font-semibold text-[#509CCF] hover:text-primary-darkBlue transition-colors duration-300 hover:underline">
                 Sign in here
               </Link>
             </p>

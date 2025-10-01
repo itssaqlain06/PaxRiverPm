@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { ToastContainer, toast } from 'react-toastify'
 import { useRouter } from 'next/navigation'
 import 'react-toastify/dist/ReactToastify.css'
@@ -11,6 +11,11 @@ export default function ResetPassword() {
   const [email, setEmail] = useState('')
   const [loading, setLoading] = useState(false)
   const router = useRouter()
+
+  useEffect(() => {
+    const storedEmail = localStorage.getItem('email') || 'johndoe@example.com'
+    setEmail(storedEmail)
+  }, [])
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -22,11 +27,14 @@ export default function ResetPassword() {
       return
     }
 
-    localStorage.setItem('email', email)
     toast.success('Password reset instructions sent!')
     setTimeout(() => {
       router.push('/email-sent')
     }, 1200)
+  }
+
+  const removeEmail = () => {
+    localStorage.removeItem('email')
   }
 
   return (
@@ -54,43 +62,30 @@ export default function ResetPassword() {
           </div>
 
           <h1 className="mt-6 text-center text-lg font-bold text-[#767676]">
-            Reset password
+            Check your email
           </h1>
           <p className="pt-4 text-center text-sm px-10 text-[#909090]">
-            Enter the email address associated with your account and we'll send you instructions to reset your password
+            An email with instructions to reset your password has been sent to <strong>{email}</strong>.
           </p>
-          <form onSubmit={handleSubmit} className="mt-6 px-10">
-            <div>
-              <label htmlFor="email" className="block text-sm font-semibold text-[#767676]">
-                Email
-              </label>
-              <input
-                id="email"
-                type="email"
-                autoComplete="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                className="mt-2 block w-full rounded-sm border border-slate-300 text-sm bg-white px-3.5 py-2 text-[#767676] shadow-sm outline-none ring-0 placeholder:text-[#767676] focus:border-primary-500 focus:ring-2 focus:ring-primary-500/30"
-                placeholder="Type your email..."
-              />
-            </div>
 
+          <p className="pt-4 text-center text-sm px-10 text-[#909090]">
+            If you don't see an email within a few minutes, check your spam folder or try again.
+          </p>
+
+          <Link
+            href="/resident-login"
+            className="w-full text-[#509CCF] hover:text-primary-darkBlue transition-colors duration-300 text-xs font-semibold text-center hover:underline block mt-4"
+            onClick={removeEmail}
+          >
             <button
               type="submit"
               disabled={loading}
-              className="mt-10 w-full rounded-full px-6 py-2 text-white bg-[#509CCF] hover:bg-primary-darkBlue transition-colors duration-300 text-sm font-bold shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500/40 disabled:opacity-50"
+              className="mt-10 w-full max-w-[370px] rounded-full px-6 py-2 text-white bg-[#509CCF] hover:bg-primary-darkBlue transition-colors duration-300 text-sm font-bold shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500/40 disabled:opacity-50"
             >
-              {loading ? 'Sending...' : 'Send reset instructions'}
+              Back to sign in
             </button>
 
-            <Link
-              href="/resident-login"
-              className="w-full text-[#509CCF] hover:text-primary-darkBlue transition-colors duration-300 text-xs font-semibold text-center hover:underline block mt-2"
-            >
-              Go back
-            </Link>
-          </form>
+          </Link>
         </div>
       </div>
       <ToastContainer position="top-right" autoClose={3000} />
