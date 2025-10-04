@@ -126,7 +126,7 @@ const Header: React.FC = () => {
               Association Management
             </Link>
             <Link
-              href="/contact"
+              href="/contact-us"
               className="text-black hover:text-primary-lightBlue hover:bg-gray-100 block mx-3 px-3 py-2 text-base font-medium transition-colors duration-300"
               onClick={() => setIsMenuOpen(false)}
             >
