@@ -4,8 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { FaRegEye, FaRegEyeSlash } from 'react-icons/fa6';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
 
 export default function ResidentLoginPage() {
   const [showPwd, setShowPwd] = useState(false);
@@ -120,7 +119,7 @@ export default function ResidentLoginPage() {
                 />
                 Remember me
               </label>
-              <Link href="/reset-password#" className="text-sm text-[#909090] font-medium hover:text-primary-700 hover:underline">
+              <Link href="/residental/forgot-password" className="text-sm text-[#909090] font-medium hover:text-primary-700 hover:underline">
                 Forgot password?
               </Link>
             </div>
@@ -154,7 +153,6 @@ export default function ResidentLoginPage() {
           .
         </p>
       </div>
-      <ToastContainer position="top-right" autoClose={3000} />
     </div>
   );
 }

@@ -3,9 +3,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import { ToastContainer, toast } from 'react-toastify'
+import { toast } from 'react-toastify'
 import { useRouter } from 'next/navigation'
-import 'react-toastify/dist/ReactToastify.css'
 
 export default function ResetPassword() {
   const [email, setEmail] = useState('')
@@ -23,10 +22,12 @@ export default function ResetPassword() {
     }
 
     localStorage.setItem('email', email)
-    toast.success('Password reset instructions sent!')
     setTimeout(() => {
-      router.push('/email-sent')
-    }, 1200)
+      toast.success('Password reset instructions sent!')
+      setEmail('');
+      setLoading(false);
+      router.push('/residental/email-sent')
+    }, 3000)
   }
 
   return (
@@ -93,7 +94,6 @@ export default function ResetPassword() {
           </form>
         </div>
       </div>
-      <ToastContainer position="top-right" autoClose={3000} />
     </div>
   )
 }
