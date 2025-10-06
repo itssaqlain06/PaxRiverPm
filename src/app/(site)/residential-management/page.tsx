@@ -21,7 +21,7 @@ export default function ResidentialManagement() {
   ];
   return (
     <div>
-      <div className="bg-gray-50 py-8">
+      <div className="bg-gray-100 py-8">
         <h1
           className={`${lusitanaTitle.className} uppercase text-center text-[32px] mb-5`}
         >

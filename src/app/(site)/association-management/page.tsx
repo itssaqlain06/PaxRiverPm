@@ -6,8 +6,7 @@ import { lusitanaTitle, sourceSans } from "@/app/fonts";
 import { FaCheck } from "react-icons/fa";
 import dynamic from "next/dynamic";
 import { useRef, useState, useEffect } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
 
 const HCaptcha = dynamic(() => import("@hcaptcha/react-hcaptcha"), {
   ssr: false,
@@ -91,13 +90,7 @@ export default function AssociationManagement() {
   ];
   return (
     <div>
-      <div className="bg-gray-50 py-8">
-        <ToastContainer
-          position="top-right"
-          theme="light"
-          closeOnClick
-          pauseOnFocusLoss={false}
-        />
+      <div className="bg-gray-100 py-8">
         <h1
           className={`${lusitanaTitle.className} uppercase text-center text-[32px] mb-5`}
         >

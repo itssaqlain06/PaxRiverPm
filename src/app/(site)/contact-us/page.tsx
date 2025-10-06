@@ -4,8 +4,7 @@ import Link from 'next/link';
 import { lusitanaTitle, sourceSans } from '@/app/fonts';
 import dynamic from 'next/dynamic';
 import { useRef, useState, useEffect } from 'react';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
 
 const HCaptcha = dynamic(() => import('@hcaptcha/react-hcaptcha'), { ssr: false });
 
@@ -66,7 +65,6 @@ export default function ContactUs() {
 
   return (
     <div className="max-w-[1400px] mx-auto px-7 sm:px-10 lg:px-9 py-8">
-      <ToastContainer position="top-right" theme="light" closeOnClick pauseOnFocusLoss={false} />
 
       <h1 className={`${lusitanaTitle.className} text-primary-blackTitle text-center text-[32px] font-serif font-medium mb-2`}>
         CONTACT US
