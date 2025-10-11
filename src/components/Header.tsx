@@ -38,7 +38,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="shadow-sm border-b-[3px] border-[#BFD9E9]">
-      <nav className="max-w-[1400px] mx-auto px-7 sm:px-10 lg:px-9">
+      <nav className="max-w-[90%] mx-auto px-7 sm:px-10 lg:px-9">
         <div className="flex justify-between items-center h-[90px] sm:h-[100px] lg:h-[123px]">
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">

@@ -6,7 +6,7 @@ import { faShareFromSquare } from '@fortawesome/free-regular-svg-icons'
 
 export default function LoginPage() {
   return (
-    <div className="max-w-[1400px] mx-auto px-7 sm:px-10 lg:px-9 py-8">
+    <div className="max-w-[90%] mx-auto px-7 sm:px-10 lg:px-9 py-8">
       <h1 className={`${lusitanaTitle.className} text-primary-blackTitle text-center text-[32px] font-serif font-medium mb-2`}>
         LOGIN TO OUR ONLINE PORTAL
       </h1>

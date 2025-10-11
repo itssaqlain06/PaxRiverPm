@@ -2,7 +2,7 @@ import { lusitanaTitle, sourceSans } from '@/app/fonts';
 
 export default function PrivacyPolicy() {
   return (
-    <div className="max-w-[1400px] mx-auto px-7 sm:px-10 lg:px-10 py-8">
+    <div className="max-w-[90%] mx-auto px-7 sm:px-10 lg:px-10 py-8">
       <h1 className={`${lusitanaTitle.className} text-primary-blackTitle text-center text-[32px] font-serif font-medium mb-9`}>
         PRIVACY POLICY
       </h1>

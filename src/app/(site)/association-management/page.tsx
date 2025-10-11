@@ -96,7 +96,7 @@ export default function AssociationManagement() {
         >
           Association Management
         </h1>
-        <p className={`w-[90%] mx-auto text-[19.2px] ${sourceSans.className}`}>
+        <p className={`max-w-[90%] mx-auto text-[19.2px] ${sourceSans.className}`}>
           When entrusting your community's management to a professional company,
           you deserve the confidence that they will be both proactive and
           dedicated. At Pax River PM, we excel at overseeing every aspect of
@@ -105,7 +105,7 @@ export default function AssociationManagement() {
           association, so you can enjoy peace of mind.
         </p>
         <p
-          className={`w-[90%] mx-auto text-[19.2px] ${sourceSans.className} mt-4`}
+          className={`max-w-[90%] mx-auto text-[19.2px] ${sourceSans.className} mt-4`}
         >
           We understand that every board has different preferences when it comes
           to involvement. That's why we customize our services to align with
@@ -117,7 +117,7 @@ export default function AssociationManagement() {
           objectives.
         </p>
         <p
-          className={`w-[90%] mx-auto text-[19.2px] ${sourceSans.className} mt-4`}
+          className={`max-w-[90%] mx-auto text-[19.2px] ${sourceSans.className} mt-4`}
         >
           Our{" "}
           <Link
@@ -133,7 +133,7 @@ export default function AssociationManagement() {
           with ease.
         </p>
         <p
-          className={`w-[90%] mx-auto text-[19.2px] ${sourceSans.className} mt-4`}
+          className={`max-w-[90%] mx-auto text-[19.2px] ${sourceSans.className} mt-4`}
         >
           Ready to explore the tailored solutions Pax River PM can provide for
           your community?{" "}
@@ -149,7 +149,7 @@ export default function AssociationManagement() {
       </div>
       {/* Row of townhouse images */}
 
-      <section className="container mx-auto w-[89%] py-8 space-y-10">
+      <section className="container mx-auto max-w-[90%] py-8 space-y-10">
         <div className="flex flex-col sm:flex-row justify-center items-center gap-5 mb-8">
           {images.map((src, i) => {
             let responsiveClasses = "";
@@ -452,7 +452,7 @@ export default function AssociationManagement() {
             onSubmit={onSubmit}
             onChange={recomputeValidity}
             onInput={recomputeValidity}
-            className={`${sourceSans.className} text-[17.6px] space-y-4 w-[89%] mx-auto mt-14`}
+            className={`${sourceSans.className} text-[17.6px] space-y-4 max-w-[90%] mx-auto mt-14`}
             noValidate={false}
           >
             <div className="space-y-1">

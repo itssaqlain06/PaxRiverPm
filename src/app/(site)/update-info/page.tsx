@@ -60,7 +60,7 @@ export default function UpdateInfo() {
       </h1>
 
       <div
-        className={`max-w-[1400px] mx-auto px-7 sm:px-10 lg:px-9 text-[19.2px] font-medium ${sourceSans.className}`}
+        className={`max-w-[90%] mx-auto px-7 sm:px-10 lg:px-9 text-[19.2px] font-medium ${sourceSans.className}`}
       >
         <p className="mt-7">
           Please fill out the following form to ensure we have the most
@@ -82,7 +82,7 @@ export default function UpdateInfo() {
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto mt-10 px-7 sm:px-10 lg:px-9 font-semibold text-[19.2px]">
+      <div className="max-w-[85%] mx-auto mt-10 px-7 sm:px-10 lg:px-9 font-semibold text-[19.2px]">
         <form
           ref={formRef}
           onSubmit={onSubmit}

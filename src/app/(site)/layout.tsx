@@ -8,7 +8,7 @@ import AvailableUnitsAlert from '@/components/AvailableUnitsAlert';
 export default function SiteLayout({ children }: { children: ReactNode }) {
     return (
         <>
-            <AvailableUnitsAlert />
+            {/* <AvailableUnitsAlert /> */}
             <Header />
             <main className="flex-grow">{children}</main>
             <Footer />

@@ -11,38 +11,61 @@ export default function AvailableUnit() {
         >
           AVAILABLE FOR RENT
         </h2>
-        <p className={`${lusitanaTitle.className} text-[30px] leading-[30px] text-center mt-5`}>
+        <p
+          className={`${lusitanaTitle.className} text-[30px] leading-[30px] text-center mt-5`}
+        >
           45715 N Maxine Way <br /> Great Mills, MD 20634
         </p>
-        <Link href="/rental-application" target="_blank" rel="noopener noreferrer" className="bg-primary-lightBlue hover:bg-primary-darkBlue text-white text-xl transition-colors duration-300 font-bold px-7 py-2 my-4 rounded">
+        <Link
+          href="/rental-application"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-primary-lightBlue hover:bg-primary-darkBlue text-white text-xl transition-colors duration-300 font-bold px-7 py-2 my-4 rounded"
+        >
           Click here to apply
         </Link>
       </div>
 
-      <div className={`${sourceSans.className} max-w-[1400px] mx-auto px-7 sm:px-10 lg:px-9 text-[19.2px] my-10`}>
+      <div
+        className={`${sourceSans.className} max-w-[90%] mx-auto px-7 sm:px-10 lg:px-9 text-[19.2px] my-10`}
+      >
         <p>
           <strong className="font-bold">Rent:</strong> $2,350/month
         </p>
         <p className="mt-5">
-          <strong className="font-bold">Description:</strong> Welcome to your new home just minutes away from shopping and NAS Pax River! This lovely three-level townhome, boasting a brand-new roof installed in 2024, offers an abundance of space and thoughtful amenities. With freshly installed luxury vinyl planks and freshly painted walls throughout, the spacious living area provides a welcoming atmosphere. The master bathroom features a soaking tub for ultimate relaxation, while the sleek kitchen boasts a brand new refrigerator and an island perfect for meal prep. Step outside to the private patio, ideal for enjoying morning coffee or evening barbecues. With an attached one-car garage and additional driveway parking, this townhouse offers both convenience and luxury.
+          <strong className="font-bold">Description:</strong> Welcome to your
+          new home just minutes away from shopping and NAS Pax River! This
+          lovely three-level townhome, boasting a brand-new roof installed in
+          2024, offers an abundance of space and thoughtful amenities. With
+          freshly installed luxury vinyl planks and freshly painted walls
+          throughout, the spacious living area provides a welcoming atmosphere.
+          The master bathroom features a soaking tub for ultimate relaxation,
+          while the sleek kitchen boasts a brand new refrigerator and an island
+          perfect for meal prep. Step outside to the private patio, ideal for
+          enjoying morning coffee or evening barbecues. With an attached one-car
+          garage and additional driveway parking, this townhouse offers both
+          convenience and luxury.
+        </p>
+        <p className="my-5">6 mins from Naval Air Station Patuxent River.</p>
+
+        <p>
+          <strong className="font-bold">Requirements:</strong> No smoking.
+          Stable employment required. $45 nonrefundable application fee (per
+          applicant).
         </p>
         <p className="my-5">
-          6 mins from Naval Air Station Patuxent River.
+          <strong className="font-bold">Rent includes:</strong> Parking and Snow
+          Removal
         </p>
 
         <p>
-          <strong className="font-bold">Requirements:</strong> No smoking. Stable employment required. $45 nonrefundable application fee (per applicant).
+          <strong className="font-bold">Unit amenities:</strong> Air
+          conditioner, Dishwasher, Disposal, Dryer, Microwave, Mirrors, Private
+          sunroom, Refrigerator, Stove/Oven, Hardwood and carpet, Washer
         </p>
         <p className="my-5">
-          <strong className="font-bold">Rent includes:</strong> Parking and Snow Removal
-        </p>
-
-        <p>
-          <strong className="font-bold">Unit amenities:</strong> Air conditioner, Dishwasher, Disposal, Dryer, Microwave, Mirrors, Private sunroom, Refrigerator, Stove/Oven, Hardwood and carpet, Washer
-        </p>
-        <p className="my-5">
-          <strong className="font-bold">Property amenities:</strong> Trash, Parking, Snow Removal
-          (included in rent)
+          <strong className="font-bold">Property amenities:</strong> Trash,
+          Parking, Snow Removal (included in rent)
         </p>
 
         <h3 className="font-bold">Additional application details:</h3>
@@ -51,15 +74,21 @@ export default function AvailableUnit() {
           <li>SECURITY DEPOSIT: $2,350</li>
           <li>
             ADDITIONAL FEES NOT INCLUDED IN RENT:
-            <ul className="list-inside ml-6" style={{ listStyleType: 'circle' }}>
-              <li>$45 Application Fee per applicant 18 or older (nonrefundable)</li>
+            <ul
+              className="list-inside ml-6"
+              style={{ listStyleType: "circle" }}
+            >
+              <li>
+                $45 Application Fee per applicant 18 or older (nonrefundable)
+              </li>
               <li>Pet rent of $50/month per pet</li>
               <li>Pet deposit of $250</li>
             </ul>
           </li>
           <li>AVAILABLE DATE: 04/01/25</li>
           <li>
-            LEASE LENGTH: 1–3 year leases accepted *Other terms, fees, and conditions may apply.
+            LEASE LENGTH: 1–3 year leases accepted *Other terms, fees, and
+            conditions may apply.
           </li>
         </ul>
 
@@ -67,33 +96,55 @@ export default function AvailableUnit() {
           SMOKING: No Smoking Allowed in or on the Property
         </p>
         <p>
-          INCOME REQUIREMENTS: Minimum Gross Income Requirement (before taxes) is 2 times the rental rate of the property you would like to rent.
+          INCOME REQUIREMENTS: Minimum Gross Income Requirement (before taxes)
+          is 2 times the rental rate of the property you would like to rent.
         </p>
         <p className="my-5">
-          CREDIT REQUIREMENTS: Minimum Credit Score of 600 is required for ALL financially responsible applicants. An applicant with a lower credit score of 550 for (ALL financially responsible applicants) or higher MAY be considered if the gross monthly income of the applicant is at least 3Xs the rental rate and the negative information on the credit report are not housing related.
+          CREDIT REQUIREMENTS: Minimum Credit Score of 600 is required for ALL
+          financially responsible applicants. An applicant with a lower credit
+          score of 550 for (ALL financially responsible applicants) or higher
+          MAY be considered if the gross monthly income of the applicant is at
+          least 3Xs the rental rate and the negative information on the credit
+          report are not housing related.
         </p>
         <p>
-          Common Reasons to be Declined but NOT ALL reasons to be declined are eviction filings, unpaid balances due to landlords, move-in date longer than 30 days out, credit score beneath the listing’s requirement, insufficient or unverifiable income, and unsatisfactory references.
+          Common Reasons to be Declined but NOT ALL reasons to be declined are
+          eviction filings, unpaid balances due to landlords, move-in date
+          longer than 30 days out, credit score beneath the listing’s
+          requirement, insufficient or unverifiable income, and unsatisfactory
+          references.
         </p>
         <p className="my-5">
-          Inability to pay the security deposit within 24 hours of acceptance, and recent bankruptcies. Unqualified occupants, pets, and/or vehicles can also be a reason for the decline.
+          Inability to pay the security deposit within 24 hours of acceptance,
+          and recent bankruptcies. Unqualified occupants, pets, and/or vehicles
+          can also be a reason for the decline.
         </p>
         <p>
-          A Criminal background check will be conducted on each applicant. The criminal background check will take into account an individualized assessment of the applicant’s record related to any type of crime committed, the specific actions that resulted from the crime, how long ago the crime occurred, and how the individual’s circumstances may have changed since then.
+          A Criminal background check will be conducted on each applicant. The
+          criminal background check will take into account an individualized
+          assessment of the applicant’s record related to any type of crime
+          committed, the specific actions that resulted from the crime, how long
+          ago the crime occurred, and how the individual’s circumstances may
+          have changed since then.
         </p>
-        <p className="my-5">
-          *Other terms, fees, and conditions may apply.
-        </p>
+        <p className="my-5">*Other terms, fees, and conditions may apply.</p>
 
         <div className="text-center my-6">
-          <Link href="/rental-application" target="_blank" rel="noopener noreferrer" className="bg-primary-lightBlue hover:bg-primary-darkBlue text-white text-xl transition-colors duration-300 font-bold px-7 py-2 mt-4 rounded">
+          <Link
+            href="/rental-application"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-primary-lightBlue hover:bg-primary-darkBlue text-white text-xl transition-colors duration-300 font-bold px-7 py-2 mt-4 rounded"
+          >
             Click here to apply
           </Link>
         </div>
       </div>
 
       <div className="px-3">
-        <h3 className={`${lusitanaTitle.className} text-center text-[30.4px] font-medium mt-14`}>
+        <h3
+          className={`${lusitanaTitle.className} text-center text-[30.4px] font-medium mt-14`}
+        >
           Gallery
         </h3>
 
@@ -108,7 +159,9 @@ export default function AvailableUnit() {
           ></iframe>
         </div>
 
-        <h3 className={`${lusitanaTitle.className} text-center text-[30.4px] font-medium mt-14`}>
+        <h3
+          className={`${lusitanaTitle.className} text-center text-[30.4px] font-medium mt-14`}
+        >
           Location
         </h3>
 
@@ -125,7 +178,12 @@ export default function AvailableUnit() {
       </div>
 
       <div className="text-center my-16">
-        <Link href="/rental-application" target="_blank" rel="noopener noreferrer" className="bg-primary-lightBlue hover:bg-primary-darkBlue text-white text-xl transition-colors duration-300 font-bold px-7 py-2 mt-4 rounded">
+        <Link
+          href="/rental-application"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-primary-lightBlue hover:bg-primary-darkBlue text-white text-xl transition-colors duration-300 font-bold px-7 py-2 mt-4 rounded"
+        >
           Click here to apply
         </Link>
       </div>
