@@ -79,14 +79,16 @@ export default function ResidentialManagement() {
             responsiveClasses = "hidden lg:block";
           }
           return (
-            <Image
-              key={i}
-              src={src}
-              alt="Residential homes"
-              width={799}
-              height={100}
-              className={`w-full h-64 object-cover ${responsiveClasses}`}
-            />
+            <div key={i} className={`relative w-full h-[50vh] min-h-[300px] ${responsiveClasses}`}>
+              <Image
+                src={src}
+                alt="Residential homes"
+                fill
+                className="object-cover"
+                sizes="100vw"
+                priority
+              />
+            </div>
           );
         })}
       </div>
@@ -238,14 +240,16 @@ export default function ResidentialManagement() {
               responsiveClasses = "hidden lg:block";
             }
             return (
-              <Image
-                key={i}
-                src={src}
-                alt="Rental homes"
-                width={799}
-                height={100}
-                className={`w-full h-64 object-cover ${responsiveClasses}`}
-              />
+              <div key={i} className={`relative w-full h-[50vh] min-h-[300px] ${responsiveClasses}`}>
+                <Image
+                  src={src}
+                  alt="Rental homes"
+                  fill
+                  className="object-cover"
+                  sizes="100vw"
+                  priority
+                />
+              </div>
             );
           })}
         </div>
@@ -395,19 +399,21 @@ export default function ResidentialManagement() {
               responsiveClasses = "hidden lg:block";
             }
             return (
-              <Image
-                key={i}
-                src={src}
-                alt="Portals"
-                width={799}
-                height={100}
-                className={`w-full h-64 object-cover ${responsiveClasses}`}
-              />
+              <div key={i} className={`relative w-full h-[50vh] min-h-[300px] ${responsiveClasses}`}>
+                <Image
+                  src={src}
+                  alt="Portals"
+                  fill
+                  className="object-cover"
+                  sizes="100vw"
+                  priority
+                />
+              </div>
             );
           })}
         </div>
-        <div className="flex lg:flex-row flex-col gap-6 mt-16 items-center">
-          <div>
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-6 mt-16 items-center">
+          <div className="md:col-span-2 space-y-6">
             <h2
               className={`${lusitanaTitle.className} text-center text-3xl mb-4`}
             >
@@ -455,13 +461,15 @@ export default function ResidentialManagement() {
               </li>
             </ul>
           </div>
-          <Image
-            src="/images/portal-side.png"
-            alt="Portals"
-            width={399}
-            height={100}
-            className={`w-full h-80 object-contain`}
-          />
+          <div className="relative w-full h-[40vh] min-h-[200px]">
+            <Image
+              src="/images/portal-side.png"
+              alt="Portals"
+              fill
+              className="object-contain"
+              sizes="100vw"
+              priority
+            /></div>
         </div>
       </section>
     </div>
