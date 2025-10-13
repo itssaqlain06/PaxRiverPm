@@ -1,6 +1,34 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { lusitanaTitle, sourceSans } from '@/app/fonts';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Pax River Property Management LLC - Southern Maryland Property Management',
+  description: 'Welcome to Pax River Property Management LLC, your trusted partner in residential and homeowners\' association (HOA) management in Southern Maryland. Family-owned business serving St. Mary\'s, Charles, and Calvert Counties.',
+  keywords: [
+    'property management Southern Maryland',
+    'HOA management St. Mary\'s County',
+    'residential property management',
+    'property management company Maryland',
+    'homeowners association management',
+    'Pax River Property Management',
+    'property management Charles County',
+    'property management Calvert County'
+  ],
+  openGraph: {
+    title: 'Pax River Property Management LLC - Southern Maryland Property Management',
+    description: 'Welcome to Pax River Property Management LLC, your trusted partner in residential and homeowners\' association (HOA) management in Southern Maryland.',
+    images: [
+      {
+        url: '/images/home-hero.jpg',
+        width: 1726,
+        height: 343,
+        alt: 'Southern Maryland landscape - Pax River Property Management',
+      },
+    ],
+  },
+};
 
 export default function HomePage() {
   return (

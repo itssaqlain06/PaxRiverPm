@@ -3,6 +3,36 @@ import Link from 'next/link'
 import { lusitanaTitle, sourceSans } from '@/app/fonts'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShareFromSquare } from '@fortawesome/free-regular-svg-icons'
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Login',
+  description: 'Access your Pax River Property Management online portal. Login to make payments, submit maintenance requests, report violations, and communicate with your community. Available on iOS, Android, and web.',
+  keywords: [
+    'property management portal login',
+    'HOA portal access',
+    'resident portal login',
+    'property management online portal',
+    'tenant portal login',
+    'property management app',
+    'online property management',
+    'resident login portal',
+    'property management software',
+    'tenant portal access'
+  ],
+  openGraph: {
+    title: 'Login - Pax River Property Management LLC',
+    description: 'Access your Pax River Property Management online portal. Login to make payments, submit maintenance requests, report violations, and communicate with your community.',
+    images: [
+      {
+        url: '/images/portal-side.png',
+        width: 199,
+        height: 100,
+        alt: 'Pax River Property Management Portal Login',
+      },
+    ],
+  },
+};
 
 export default function LoginPage() {
   return (

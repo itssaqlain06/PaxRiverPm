@@ -2,6 +2,36 @@ import Image from "next/image";
 import Link from "next/link";
 import { lusitanaTitle, sourceSans } from "@/app/fonts";
 import { FaCheck } from "react-icons/fa";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Residential Management',
+  description: 'Professional residential property management services in Southern Maryland. Tenant placement, rental management, and property maintenance services for landlords and property owners in St. Mary\'s, Charles, and Calvert Counties.',
+  keywords: [
+    'residential property management',
+    'tenant placement services',
+    'rental property management',
+    'property management Southern Maryland',
+    'landlord services',
+    'rental management company',
+    'tenant screening',
+    'property maintenance management',
+    'rental property services',
+    'property management St. Mary\'s County'
+  ],
+  openGraph: {
+    title: 'Residential Management - Pax River Property Management LLC',
+    description: 'Professional residential property management services in Southern Maryland. Tenant placement, rental management, and property maintenance services for landlords and property owners.',
+    images: [
+      {
+        url: '/images/resident-1.jpg',
+        width: 799,
+        height: 100,
+        alt: 'Residential Property Management Services - Pax River Property Management',
+      },
+    ],
+  },
+};
 
 export default function ResidentialManagement() {
   const images = [

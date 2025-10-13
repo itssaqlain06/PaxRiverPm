@@ -1,4 +1,34 @@
 import { lusitanaTitle, sourceSans } from '@/app/fonts';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy',
+  description: 'Pax River Property Management LLC privacy policy. Learn how we protect your personal information, data collection practices, and your privacy rights. Effective April 16, 2022.',
+  keywords: [
+    'privacy policy',
+    'data protection',
+    'personal information',
+    'privacy rights',
+    'data collection',
+    'information security',
+    'privacy practices',
+    'data privacy',
+    'privacy protection',
+    'Pax River Property Management privacy'
+  ],
+  openGraph: {
+    title: 'Privacy Policy - Pax River Property Management LLC',
+    description: 'Pax River Property Management LLC privacy policy. Learn how we protect your personal information, data collection practices, and your privacy rights.',
+    images: [
+      {
+        url: '/images/logo.png',
+        width: 400,
+        height: 80,
+        alt: 'Pax River Property Management Privacy Policy',
+      },
+    ],
+  },
+};
 
 export default function PrivacyPolicy() {
   return (

@@ -107,7 +107,7 @@ const Header: React.FC = () => {
 
         <div
           ref={menuRef}
-          className={`lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${isMenuOpen ? 'max-h-[500px]' : 'max-h-0'
+          className={`lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${isMenuOpen ? 'max-h-[500px] mb-5' : 'max-h-0'
             }`}
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
