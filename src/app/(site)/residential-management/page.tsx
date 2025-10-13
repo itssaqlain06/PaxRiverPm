@@ -57,7 +57,7 @@ export default function ResidentialManagement() {
         >
           Residential Management
         </h1>
-        <p className="w-[90%] mx-auto text-[19.2px] ${sourceSans.className}">
+        <p className="max-w-[90%] mx-auto text-[19.2px] ${sourceSans.className}">
           Discover the convenience and peace of mind that comes with Pax River
           PM's residential management services. Our dedicated team handles all
           aspects of residential property management, from tenant placement to
@@ -90,7 +90,7 @@ export default function ResidentialManagement() {
           );
         })}
       </div>
-      <section className="container mx-auto w-[89%] py-8 space-y-10">
+      <section className="container mx-auto max-w-[90%] py-8 space-y-10">
         {/* Tenant Placement Services */}
         <div>
           <h2

@@ -43,7 +43,7 @@ export default function HomePage() {
         />
       </section>
 
-      <section className="max-w-[1400px] mx-auto px-7 sm:px-10 py-12 space-y-6 ">
+      <section className="max-w-[90%] mx-auto px-7 sm:px-10 py-12 space-y-6 ">
         <h2
           className={`${lusitanaTitle.className} text-[32px] text-center text-primary-blackTitle font-medium mb-8 px-[33px]`}
         >

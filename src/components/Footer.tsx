@@ -10,7 +10,7 @@ import { IoLocationSharp } from "react-icons/io5";
 export default function Footer() {
   return (
     <footer className="bg-gray-100 border-t-8 border-[#BFD9E9] mt-8 pt-7 text-sm">
-      <div className="max-w-[1400px] mx-auto px-7 sm:px-10 lg:px-9 py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+      <div className="max-w-[90%] mx-auto px-7 sm:px-10 lg:px-9 py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         <div className="text-center md:text-left">
           <h3 className={`${lusitanaTitle.className} mb-7 text-[23px]`}>Our Services</h3>
           <ul className="space-y-3">
