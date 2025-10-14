@@ -161,14 +161,16 @@ export default function AssociationManagement() {
               responsiveClasses = "hidden lg:block";
             }
             return (
-              <Image
-                key={i}
-                src={src}
-                alt="Residential homes"
-                width={799}
-                height={100}
-                className={`w-full h-72 object-cover ${responsiveClasses}`}
-              />
+              <div key={i} className={`relative w-full h-[50vh] min-h-[300px] ${responsiveClasses}`}>
+                <Image
+                  src={src}
+                  alt="Residential homes"
+                  fill
+                  className="object-cover"
+                  sizes="100vw"
+                  priority
+                />
+              </div>
             );
           })}
         </div>
@@ -305,14 +307,16 @@ export default function AssociationManagement() {
               responsiveClasses = "hidden lg:block";
             }
             return (
-              <Image
-                key={i}
-                src={src}
-                alt="Rental homes"
-                width={799}
-                height={100}
-                className={`w-full h-64 object-cover ${responsiveClasses}`}
-              />
+              <div key={i} className={`relative w-full h-[50vh] min-h-[300px] ${responsiveClasses}`}>
+                <Image
+                  src={src}
+                  alt="Rental homes"
+                  fill
+                  className="object-cover"
+                  sizes="100vw"
+                  priority
+                />
+              </div>
             );
           })}
         </div>
@@ -433,13 +437,15 @@ export default function AssociationManagement() {
               </ul>
             </div>
           </div>
-          <Image
-            src="/images/portal-side.png"
-            alt="Portals"
-            width={199}
-            height={100}
-            className={`w-full h-72 object-contain`}
-          />
+          <div className="relative w-full h-[40vh] min-h-[200px]">
+            <Image
+              src="/images/portal-side.png"
+              alt="Portals"
+              fill
+              className="object-contain"
+              sizes="100vw"
+              priority
+            /></div>
         </div>
 
         {/* Request A Proposal form */}
@@ -558,11 +564,10 @@ export default function AssociationManagement() {
               <button
                 type="submit"
                 disabled={!formValid || !captchaToken || submitting}
-                className={`text-white text-lg px-6 py-2 rounded transition-colors duration-300 ${
-                  !formValid || !captchaToken || submitting
+                className={`text-white text-lg px-6 py-2 rounded transition-colors duration-300 ${!formValid || !captchaToken || submitting
                     ? "bg-gray-400 cursor-not-allowed"
                     : "bg-primary-lightBlue hover:bg-primary-darkBlue"
-                }`}
+                  }`}
               >
                 {submitting ? "Submitting…" : "Submit"}
               </button>

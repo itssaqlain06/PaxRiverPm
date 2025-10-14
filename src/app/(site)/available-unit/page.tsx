@@ -127,7 +127,6 @@ export default function AvailableUnit() {
           Gallery
         </h3>
 
-        {/* Indoor image gallery (up to 5 images) */}
         <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 gap-4 mx-auto">
           {[
             '/images/rental/indoor-1.jpg',

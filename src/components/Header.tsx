@@ -40,7 +40,7 @@ const Header: React.FC = () => {
     <header className="shadow-sm border-b-[3px] border-[#BFD9E9]">
       <nav className="max-w-[90%] mx-auto px-7 sm:px-10 lg:px-3 xl:px-9">
         <div className="flex justify-between items-center h-[90px] sm:h-[100px] lg:h-[123px]">
-          <div className="flex-shrink-0">
+          {/* <div className="flex-shrink-0"> */}
             <Link href="/" className="flex items-center">
               <Image
                 src="/images/logo.png"
@@ -51,7 +51,7 @@ const Header: React.FC = () => {
                 priority
               />
             </Link>
-          </div>
+          {/* </div> */}
 
           <div className="hidden lg:block">
             <div className="ml-10 lg:ml-3 xl:ml-8 flex items-baseline xl:gap-x-5 lg:gap-x-3 gap-x-2">

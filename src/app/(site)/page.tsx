@@ -34,13 +34,16 @@ export default function HomePage() {
   return (
     <div>
       <section>
-        <Image
-          src="/images/home-hero.jpg"
-          alt="Southern Maryland landscape"
-          width={1726}
-          height={343}
-          className="w-full h-[343px] object-cover"
-        />
+        <div className="relative w-full h-[50vh] min-h-[300px]">
+          <Image
+            src="/images/home-hero.jpg"
+            alt="Southern Maryland landscape"
+            fill
+            className="object-cover"
+            sizes="100vw"
+            priority
+          />
+        </div>
       </section>
 
       <section className="max-w-[90%] mx-auto px-7 sm:px-10 py-12 space-y-6 ">
