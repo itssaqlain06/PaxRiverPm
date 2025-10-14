@@ -49,7 +49,7 @@ export default function AvailableUnit() {
         </Link>
       </div>
 
-      <div className={`${sourceSans.className} max-w-[1400px] mx-auto px-7 sm:px-10 lg:px-9 text-[19.2px] my-10`}>
+      <div className={`${sourceSans.className} max-w-[90%] mx-auto px-7 sm:px-10 lg:px-9 text-[19.2px] my-10`}>
         <p>
           <strong className="font-bold">Rent:</strong> $2,350/month
         </p>
@@ -126,6 +126,31 @@ export default function AvailableUnit() {
         <h3 className={`${lusitanaTitle.className} text-center text-[30.4px] font-medium mt-14`}>
           Gallery
         </h3>
+
+        {/* Indoor image gallery (up to 5 images) */}
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 gap-4 mx-auto">
+          {[
+            '/images/rental/indoor-1.jpg',
+            '/images/rental/indoor-2.jpg',
+            '/images/rental/indoor-3.jpg',
+            '/images/rental/indoor-4.jpg',
+            '/images/rental/indoor-5.jpg',
+          ]
+            .slice(0, 5)
+            .map((src, index) => (
+              <div key={src} className="w-full">
+                <Image
+                  src={src}
+                  alt={`Indoor image ${index + 1}`}
+                  width={1000}
+                  height={750}
+                  className="w-full h-auto rounded-md object-cover"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1536px) 25vw, 25vw"
+                  priority={index === 0}
+                />
+              </div>
+            ))}
+        </div>
 
         <div className="h-[450px] bg-gray-100 mt-4">
           <iframe

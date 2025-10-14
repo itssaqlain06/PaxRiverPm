@@ -38,7 +38,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="shadow-sm border-b-[3px] border-[#BFD9E9]">
-      <nav className="max-w-[90%] mx-auto px-7 sm:px-10 lg:px-9">
+      <nav className="max-w-[90%] mx-auto px-7 sm:px-10 lg:px-3 xl:px-9">
         <div className="flex justify-between items-center h-[90px] sm:h-[100px] lg:h-[123px]">
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
@@ -47,14 +47,14 @@ const Header: React.FC = () => {
                 alt="Pax River Property Management LLC"
                 width={400}
                 height={80}
-                className="xl:h-28 sm:h-20 h-14 w-auto"
+                className="xl:h-24 sm:h-20 h-14 w-auto"
                 priority
               />
             </Link>
           </div>
 
           <div className="hidden lg:block">
-            <div className="ml-10 lg:ml-6 xl:ml-10 flex items-baseline xl:gap-x-8 lg:gap-x-6 gap-x-4">
+            <div className="ml-10 lg:ml-3 xl:ml-8 flex items-baseline xl:gap-x-5 lg:gap-x-3 gap-x-2">
               <Link
                 href="/residential-management"
                 className="text-black hover:text-primary-lightBlue py-2 xl:text-lg text-base font-medium transition-colors duration-300"
